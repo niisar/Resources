@@ -1,3 +1,0 @@
-$.SyntaxHighlighter.init(
-
-	);
