@@ -82,9 +82,9 @@ blockquote{
   border-right: 3px solid #bbb;
   
   /*Box Shadow - (Optional)*/
-  -moz-box-shadow: 2px 2px 15px #ccc;
-  -webkit-box-shadow: 2px 2px 15px #ccc;
-  box-shadow: 2px 2px 15px #ccc;
+  -moz-box-shadow: 1px 1px 3px 1px #ccc;
+  -webkit-box-shadow: 1px 1px 3px 1px #ccc;
+  box-shadow: 1px 1px 3px 1px #ccc;
 }
 
 blockquote::before{
