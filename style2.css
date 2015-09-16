@@ -262,14 +262,14 @@ blockquote em{
 
 
 .bmain h5 {
-	margin: 0.8em 0 0.5em 0;
-	color: #333;
-	font-weight: normal;
-	font-family: 'Orienta', sans-serif;
-	font-size: 24px;
-	line-height: 40px;
+	margin: 0.8em 0 0.5em 0 !important;
+	color: #333 !important;
+	font-weight: normal !important;
+	font-family: 'Orienta', sans-serif !important;
+	font-size: 24px !important;
+	line-height: 40px !important;
 	
-	box-shadow: 0 1px 0 rgba(0,0,0,0.1);
+	box-shadow: 0 1px 0 rgba(0,0,0,0.1) !important;
 	
 }
 
