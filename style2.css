@@ -2,6 +2,7 @@
 	1.1 blockquote
 	1.2 .table Design
 	1.3 image img
+	1.4 Headings
 */
 
 	body {
@@ -229,3 +230,61 @@ blockquote em{
     border: 1px solid #fff;
         max-width: 100%;
 }
+
+/*1.4 headings*/
+	
+.bmain {
+	counter-reset: section-1, section-2, section-3, section-4;
+}
+
+.bmain h1 {
+	margin: 0.8em 0 0.5em 0;
+	color: #333;
+	font-weight: normal;
+	font-family: 'Orienta', sans-serif;
+	font-size: 36px;
+	line-height: 40px;
+	counter-increment: section-1;
+	counter-reset: section-2 section-3 section-4;
+}
+
+.bmain h2 {
+	margin: 0.8em 0 0.5em 0;
+	color: #333;
+	font-weight: normal;
+	font-family: 'Orienta', sans-serif;
+	font-size: 30px;
+	line-height: 40px;
+	counter-increment: section-2;
+	counter-reset: section-3 section-4;
+	border-bottom: 1px solid #fff;
+	/*box-shadow: 0 1px 0 rgba(0,0,0,0.1);*/
+	padding-bottom: 10px;
+}
+
+.bmain h3 {
+	margin: 0.8em 0 0.5em 0;
+	color: #333;
+	font-weight: normal;
+	font-family: 'Orienta', sans-serif;
+	font-size: 24px;
+	line-height: 40px;
+	counter-increment: section-3;
+	box-shadow: 0 1px 0 rgba(0,0,0,0.1);
+	counter-reset: section-4;
+}
+
+.bmain h4 {
+	margin: 0.8em 0 0.5em 0;
+	color: #333;
+	font-weight: normal;
+	font-family: 'Orienta', sans-serif;
+	font-size: 18px;
+	line-height: 20px;
+	counter-increment: section-4;
+}
+
+.bmain h1:before { content: counter(section-1) ". "; }
+.bmain h2:before { content: counter(section-1) "." counter(section-2) " "; }
+.bmain h3:before { content: counter(section-1) "." counter(section-2) "." counter(section-3) " "; }
+.bmain h4:before { content: counter(section-1) "." counter(section-2) "." counter(section-3) "." counter(section-4) " "; }
