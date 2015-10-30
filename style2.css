@@ -124,9 +124,7 @@ blockquote em{
   font-style: italic;
 }
 
-/*1.2 .table Design*
-
-
+/*1.2 .table Design*/
 .table a:link {
 	color: #666;
 	font-weight: bold;
@@ -285,4 +283,3 @@ blockquote em{
 
 .bmain h3:before { content: counter(section-1) ". "; }
 .bmain h4:before { content: counter(section-1) "." counter(section-2) " "; }
-
